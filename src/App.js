@@ -33,10 +33,17 @@ function App() {
           <div className="full help">
             <input type="text" placeholder="How can We Help?" />
           </div>
-         
-            <button>Get Started</button>
-          
+
+          <button>Get Started</button>
         </div>
+      </div>
+      <div className="icon">
+        <span id="blue">
+          <i class="fa-regular fa-message"></i>
+        </span>
+        <span id="orange">
+          <i class="fa-regular fa-square"></i>
+        </span>
       </div>
     </div>
   );

@@ -5,9 +5,10 @@
   background-color: #2da7a7;
 }
 .main{
+  position: relative;
   display: flex;
   justify-content: space-around;
-  margin: 8% 2%;
+  margin: 8% 0;
 }
 .content{
   width: 40%;
@@ -24,7 +25,7 @@
   line-height: 1.5;
 }
 .form{
-  
+ 
   padding: 4%;
 }
 .form input{
@@ -34,7 +35,6 @@
 }
 .divide{
   margin:  2%;
-  
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -57,4 +57,32 @@
   background-color: #d34b35;
   color: white;
   border: none;
+}
+.icon{
+  position: fixed;
+  top: 40%;
+  right: -1px;
+  border: 1px solid white;
+}
+#blue{
+  padding: 1%;
+  width: 100%;
+  background-color: blue;
+}
+#blue i{
+  width: 100%;
+  padding: 28%;
+  background-color: blue;
+  color: white;
+}
+#orange{
+  width: 100%;
+  padding: 1%;
+  background-color: #d34b35;
+}
+#orange i{
+  width: 100%;
+  padding: 28%;
+  background-color: #d34b35;
+  color: white;
 }

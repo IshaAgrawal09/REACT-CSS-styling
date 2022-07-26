@@ -5,19 +5,37 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      <div className="content">
-        <div className="head">
-          <h1 id="online">ONLINE</h1>
-          <h1 id="education">EDUCATION</h1>
+      <div className="main">
+        <div className="content">
+          <h1>Get Statrted with Apptio Today</h1>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet dicta
-            quis perferendis blanditiis dignissimos, ducimus numquam a nam
-            repudiandae iusto?
+            Talk to an Apptio expert about your specific needs and see a live
+            product demonstration. Discuss current challenges and find the right
+            application for your use case.
           </p>
-          <button>LEARN MORE</button>
         </div>
-        <div id="photu">
-          <img src="https://media.istockphoto.com/vectors/child-training-basic-language-skills-with-speech-therapist-vector-id1302890895?k=20&m=1302890895&s=612x612&w=0&h=DNrXDSzlauqgfFixus9pko4RAydNyqaZKDeOADU1ItI=" alt=""/>
+        <div className="form">
+          <div className="divide">
+            <input type="text" id="name" placeholder="First Name" />
+            <input type="text" id="name" placeholder="Last Name" />
+          </div>
+          <div className="divide">
+            <input type="text" id="email" placeholder="Work Email" />
+            <input type="text" id="phone" placeholder="Phone" />
+          </div>
+          <div className="divide">
+            <input type="text" id="company" placeholder="Company" />
+            <input type="number" id="job" placeholder="Job Function" />
+          </div>
+          <div className="full">
+            <input type="number" id="country" placeholder="Country" />
+          </div>
+          <div className="full help">
+            <input type="text" placeholder="How can We Help?" />
+          </div>
+         
+            <button>Get Started</button>
+          
         </div>
       </div>
     </div>

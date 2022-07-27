@@ -4,31 +4,26 @@ const Nav = () => {
   return (
     <div className="nav">
       <div className="logo">
-        <img
-          src="https://cdn.shortpixel.ai/spai/ret_img/https://www.apptio.com/wp-content/uploads/apptio-logo-svg.svg"
-          alt=""
-        />
+        SCIENCE
+        <p>
+          <i class="fa-solid fa-glasses"></i>
+        </p>
       </div>
-      <div className="navItem">
+      <div className="navitem">
         <li>
-          <a href="/" className="link">Solutions</a>
+          <a href="/">HOME</a>
         </li>
         <li>
-          <a href="/" className="link">Products</a>
+          <a href="/">ABOUT US</a>
         </li>
         <li>
-          <a href="/" className="link">Resources</a>
+          <a href="/">SERVICE</a>
         </li>
         <li>
-          <a href="/" className="link">Company</a>
+          <a href="/">CONTACT</a>
         </li>
-        <li>
-          <a href="/" className="link started">Get Started</a>
-        </li>
-        <li>
-          <a href="/" className="link">
-            <i class="fa-solid fa-magnifying-glass"></i>Search
-          </a>
+        <li id="login">
+          <a href="/">LOG IN</a>
         </li>
       </div>
     </div>
